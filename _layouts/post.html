@@ -1,0 +1,99 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+
+			<div class="post__head wow fadeInUp">
+				<h1 class="post__title">{{ page.title | escape }}</h1>
+
+				<!-- AUTORE E DATA-->
+				<div class="post-info">
+					<span class="post__meta">
+						<span class="article__author">{{ site.author.name }} - </span>
+						<span class="post__date">
+							<time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%d/%m/%Y'}}</time>
+						</span>
+					</span>
+				</div>
+
+				<!-- TAG -->
+				<div class="post-info">
+					{% if page.tags.size >= 1 %}
+					<span class="post-tags">
+						Tag:
+						{% for tag in page.tags %}
+							<a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tags__tag">{{ tag }}</a>
+						{% endfor %}
+					</span>
+					{% endif %}
+				</div>
+
+				<!-- CONDIVIDI -->
+				<div class="condividi-post">
+					<span>
+						<a class="share__link share__facebook"
+							href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+							onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+							title="Facebook" rel="nofollow">
+								<i class="ion ion-logo-facebook"></i>
+						</a>
+					</span>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+
+			<!-- begin post -->
+			<article class="post wow fadeInUp" data-wow-delay=".2s">
+
+			{% if page.image and page.image != "" %}
+				<div class="post-image" style="background-image: url('{{ page.image | relative_url }}')"></div>
+			{% endif %}
+
+				<div class="post__content">
+					{{ content }}
+				</div>
+
+				<!-- <div class="post__share">
+					<ul class="share__list list-reset">
+						<li class="share__item">
+							<a class="share__link share__facebook"
+								href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+						</li>
+					</ul>
+				</div> -->
+
+				<div class="widget-recent">
+					<h5 class="widget__title">Recommended for you</h5>
+					<div class="recent-box">
+						{% for post in site.posts offset:0 limit:3 %}
+						<div class="recent-posts">
+							<div class="recent-posts__content">
+								{% if post.image and post.image != "" %}
+									<a class="recent-posts__image wow fadeIn" href="{{ post.url }}"
+										style="background-image: url('{{ post.image | relative_url }}')"></a>
+								{% else %}
+								{% endif %}
+									<p class="recent-posts__title"><a href="{{ post.url }}">{{ post.title }}</a></p>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+
+			</article>
+			<!-- end post -->
+		</div>
+	</div>
+</div>

@@ -1,0 +1,63 @@
+title: Carlo Finocchiaro
+logo: "images/logo.png" # You can add own logo image.
+description:
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author:
+  name: Carlo Finocchiaro
+  bio:
+
+# Contact links
+twitter:
+facebook: https://www.facebook.com/finocchiaro.carlo/
+instagram: https://www.instagram.com/carlo_finocchiaro/
+linkedin: https://www.linkedin.com/in/carlo-finocchiaro-926b1594
+youtube:
+pinterest:
+email:
+
+# Hero Section
+hero: true
+hero-title: Carlo Finocchiaro
+hero-subtitle: BENVENUTI
+hero-image: images/heroBackground.jpg
+
+# Footer
+footer-image: images/heroBackground.jpg
+
+# Google Analytics
+google-analytics-enabled: false
+google-analytics: "" # Add your identifier. For example UA-99631805-1.
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+  - jemoji
+
+paginate: 4
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -14,6 +14,7 @@ twitter:
 facebook: https://www.facebook.com/finocchiaro.carlo/
 instagram: https://www.instagram.com/carlo_finocchiaro/
 linkedin: https://www.linkedin.com/in/carlo-finocchiaro-926b1594
+github: https://github.com/carlofinocchiaro
 youtube:
 pinterest:
 email:
@@ -21,7 +22,7 @@ email:
 # Hero Section
 hero: true
 hero-title: Carlo Finocchiaro
-hero-subtitle: BENVENUTI
+hero-subtitle: A HERO CAN BE ANYONE
 hero-image: images/heroBackground.jpg
 
 # Footer

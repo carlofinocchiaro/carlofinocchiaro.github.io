@@ -1,7 +1,7 @@
 ---
 layout: page
-title: LINK
-permalink: /link/
+title: CONTATTI
+permalink: /contatti/
 ---
 
 ##### Facebook

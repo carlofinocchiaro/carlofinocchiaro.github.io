@@ -44,11 +44,11 @@
   .search__text {
     width: 100%;
     padding: 20px 18px 18px 0;
-    font-family: 'Fjalla One', Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 28px;
     line-height: 32px;
     border: none;
-    border-bottom: 3px solid $dark;
+    border-bottom: 3px solid $brand-color;
     color: $dark;
     &::placeholder {
       font-weight: 700;
@@ -74,7 +74,7 @@
     margin-bottom: 20px;
   }
 
-  
+
   .search-results__link {
     font-size: 16px;
     font-weight: 400;

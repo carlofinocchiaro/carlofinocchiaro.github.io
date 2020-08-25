@@ -22,7 +22,7 @@ email:
 # Hero Section
 hero: true
 hero-title: Carlo Finocchiaro
-hero-subtitle: A  HERO  CAN  BE  ANYONE
+hero-subtitle: A HERO CAN BE ANYONE
 hero-image: images/heroBackground.jpg
 
 # Footer
@@ -40,6 +40,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jemoji
+  - jekyll-admin
 
 paginate: 4
 paginate_path: "/page/:num"

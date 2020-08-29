@@ -63,19 +63,8 @@ layout: default
 					{{ content }}
 				</div>
 
-				<!-- <div class="post__share">
-					<ul class="share__list list-reset">
-						<li class="share__item">
-							<a class="share__link share__facebook"
-								href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-								title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-						</li>
-					</ul>
-				</div> -->
-
 				<div class="widget-recent">
-					<h5 class="widget__title">Recommended for you</h5>
+					<h5 class="widget__title">Suggeriti per te</h5>
 					<div class="recent-box">
 						{% for post in site.posts offset:0 limit:3 %}
 						<div class="recent-posts">

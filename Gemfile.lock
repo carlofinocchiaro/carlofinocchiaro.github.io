@@ -9,7 +9,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    backports (3.18.1)
+    backports (3.18.2)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
     em-websocket (0.5.1)

@@ -1,7 +1,7 @@
 ---
 layout: layoutFoto
-title: FOTO
-permalink: /foto/
+titleNoHeader: fotografia
+permalink: /atAGlance/fotografia/
 ---
 
 > _Le tue prime 10.000 fotografie sono le peggiori._

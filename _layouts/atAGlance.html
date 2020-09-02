@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<h1 class="page__title wow fadeInUp allineamento-titolo">{{ page.title | escape }}</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<!-- begin page -->
+			<article class="page wow fadeInUp" data-wow-delay=".2s">
+
+				<!-- immagine testata -->
+				{% if page.image %}
+				<div class="page-image" style="background-image: url('{{ page.image | relative_url }}')"></div>
+				{% endif %}
+
+				<div class="page__content">
+
+					<!-- link pagina -->
+					<ul class="coloredBullet">
+						{% for item in site.data.atAGlance.pages %}
+						<h4>
+							<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+						</h4>
+						{% endfor %}
+					</ul>
+
+				</div>
+
+			</article>
+			<!-- end page -->
+		</div>
+	</div>
+</div>

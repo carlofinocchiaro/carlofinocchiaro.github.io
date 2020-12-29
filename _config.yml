@@ -40,7 +40,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jemoji
-  - jekyll-admin
+  # - jekyll-admin
 
 paginate: 4
 paginate_path: "/page/:num"

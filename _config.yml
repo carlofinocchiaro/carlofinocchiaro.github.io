@@ -29,8 +29,8 @@ hero-image: images/heroBackground.jpg
 footer-image: images/heroBackground.jpg
 
 # Google Analytics
-google-analytics-enabled: false
-google-analytics: "" # Add your identifier. For example UA-99631805-1.
+google-analytics-enabled: true
+google-analytics: "G-C0THNW3SQG"
 
 # Build settings
 markdown: kramdown

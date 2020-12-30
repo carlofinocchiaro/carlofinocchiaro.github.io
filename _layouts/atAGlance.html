@@ -17,10 +17,12 @@ layout: default
 
 				<!-- immagine testata -->
 				{% if page.image %}
-				<div class="page-image" style="background-image: url('{{ page.image | relative_url }}')"></div>
+					<div class="page-image" style="background-image: url('{{ page.image | relative_url }}')"></div>
 				{% endif %}
 
 				<div class="page__content">
+
+					{{ content }}
 
 					<!-- link pagina -->
 					<ul class="coloredBullet">

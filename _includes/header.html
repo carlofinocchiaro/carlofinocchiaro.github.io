@@ -8,11 +8,11 @@
           <!-- begin logo -->
           <div class="logo">
             <a class="logo__link" href="{{ site.baseurl }}/">
-            {%if site.logo and site.logo != "" %}
+              {%if site.logo and site.logo != "" %}
               <img class="logo__image" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
-            {% else %}
-              {{ site.title }}
-            {% endif %}
+              {% else %}
+                {{ site.title }}
+              {% endif %}
             </a>
           </div>
           <!-- end logo -->
@@ -32,11 +32,11 @@
                 <!-- LINK GENERATI DINAMICAMENTE -->
                 {% for page in site.pages %}
                   {% unless page.name == 'tags.html' or page.name == '404.html'%}
-                {% if page.title %}
-                <li class="nav__item">
-                  <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-                </li>
-                {% endif %}
+                    {% if page.title %}
+                      <li class="nav__item">
+                        <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+                      </li>
+                    {% endif %}
                   {% endunless %}
                 {% endfor %}
 

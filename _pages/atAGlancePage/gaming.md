@@ -11,3 +11,11 @@ A dire il vero ci sarebbe anche chi veramente non ha mai giocato a nulla, ma per
 Si entra attraversando una porta piccola e stretta e lì i dannati vengono presi a pugni da Super Mario col funghetto 1UP per l'eternità. Non me ne vogliate ma la colpa è vostra.
 
 Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i videogiochi e se ho un pò di tempo libero che sia da PC o da qualsiasi altra console, una partitella ci sta sempre bene.
+
+***
+
+#### 2021 in videogames
+* **Star Wars Jedi: Fallen Order**
+* **Horizon Zero Dawn**
+
+***

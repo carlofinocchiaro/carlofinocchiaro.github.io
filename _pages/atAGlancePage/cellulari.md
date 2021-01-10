@@ -2,7 +2,7 @@
 layout: subpage
 titleLV2: (SMART)PHONE
 permalink: /atAGlance/cellulari/
-image: images/myphone.jpg
+image: images/myPhone.jpg
 ---
 
 Dal GSM al 5G, dalla gloriosa era Nokia al mondo Android.

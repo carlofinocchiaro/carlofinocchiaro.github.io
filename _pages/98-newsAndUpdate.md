@@ -5,6 +5,7 @@ permalink: /news/
 image: images/newsAndUpdate.jpg
 ---
 
+* **27.02.2021** - Nuovo Smartphone!
 * **10.01.2021** - Aggiunta la sezione *Cellulari* in *AT A GLANCE*
 * **07.01.2021** - Aggiunta della sezione *News & Update*
 * **31.12.2020** - Pubblicazione del sito

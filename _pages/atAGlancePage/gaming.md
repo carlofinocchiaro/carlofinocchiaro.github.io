@@ -18,5 +18,6 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 * **Star Wars Jedi: Fallen Order**
 * **Horizon Zero Dawn**
 * **Gears 5**
+* **Days Gone**
 
 ***

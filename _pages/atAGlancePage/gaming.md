@@ -19,5 +19,7 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 * **Horizon Zero Dawn**
 * **Gears 5**
 * **Days Gone**
+* **Hellblade: Senua's Sacrifice**
+*[The hardest battles are fought in the mind]*
 
 ***

@@ -32,7 +32,7 @@ last-update: Aggiornamento videogame
 footer-image: images/heroBackground.jpg
 
 # Google Analytics
-google-analytics-enabled: true
+google-analytics-enabled: false
 google-analytics: "G-C0THNW3SQG"
 
 # Build settings

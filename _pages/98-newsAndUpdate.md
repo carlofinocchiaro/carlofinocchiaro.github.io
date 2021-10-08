@@ -5,6 +5,7 @@ permalink: /news/
 image: images/newsAndUpdate.jpg
 ---
 
+* **09.10.2021** - Aggiunto il collegamento *Playground* in *AT A GLANCE*
 * **29.07.2021** - Aggiornamento *videogame*
 * **01.05.2021** - Aggiornamento *videogame*
 * **11.04.2021** - Aggiornamento *videogame*

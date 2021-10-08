@@ -6,13 +6,9 @@
         <div class="header-box">
 
           <!-- begin logo -->
-          <div class="logo">
+          <div>
             <a class="logo__link" href="{{ site.baseurl }}/">
-              {%if site.logo and site.logo != "" %}
               <img class="logo__image" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
-              {% else %}
-                {{ site.title }}
-              {% endif %}
             </a>
           </div>
           <!-- end logo -->

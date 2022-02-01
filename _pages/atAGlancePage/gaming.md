@@ -13,6 +13,8 @@ Si entra attraversando una porta piccola e stretta e lì i dannati vengono presi
 Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i videogiochi e se ho un pò di tempo libero che sia da PC o da qualsiasi altra console, una partitella ci sta sempre bene.
 
 ***
+#### 2022 in videogames
+* **Cyberpunk 2077**
 
 #### 2021 in videogames
 * **Star Wars Jedi: Fallen Order**

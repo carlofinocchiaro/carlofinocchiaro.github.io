@@ -28,3 +28,4 @@ Questa sezione è dedicata alla memoria storica di tutti i cellulari che ho avut
 * **Samsung Galaxy S8**
 * **Samsung Galaxy S10**
 * **Samsung Galaxy S21 Ultra**
+* **Samsung Galaxy S22 Ultra**

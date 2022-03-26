@@ -14,6 +14,13 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2022 in videogames
+* **Halo Infinite**
+* **Halo 4**
+* **Halo Reach**
+* **Halo 3 ODST**
+* **Halo 3**
+* **Halo 2**
+* **Halo Combat Evolved**
 * **Cyberpunk 2077**
 
 #### 2021 in videogames

@@ -14,6 +14,8 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2022 in videogames
+* **Shadow of the Tomb Raider**
+* **Horizon Forbidden West**
 * **Halo Infinite**
 * **Halo 4**
 * **Halo Reach**

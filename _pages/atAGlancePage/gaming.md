@@ -14,6 +14,8 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2022 in videogames
+* **Metro: Last Light**
+* **Metro 2033**
 * **Ghostrunner**
 * **Deathloop**
 * **Shadow of the Tomb Raider**

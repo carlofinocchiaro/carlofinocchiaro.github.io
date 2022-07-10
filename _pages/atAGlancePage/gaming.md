@@ -14,6 +14,7 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2022 in videogames
+* **Farcry 6**
 * **Metro Exodus**
 * **Metro: Last Light**
 * **Metro 2033**

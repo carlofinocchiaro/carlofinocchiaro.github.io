@@ -14,6 +14,9 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2023 in videogames
+* **Uncharted 3: L'inganno di Drake**
+* **Uncharted 2: Il covo dei ladri**
+* **Uncharted: Drake's Fortune**
 * **Gotham Knights**
 * **Spider-Man: Miles Morales**
 

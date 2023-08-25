@@ -14,6 +14,9 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2023 in videogames
+* **Bayonetta 3**
+* **Bayonetta 2**
+* **The Legend of Zelda: Breath of the Wild**
 * **Uncharted 4: La fine di un ladro**
 * **Uncharted 3: L'inganno di Drake**
 * **Uncharted 2: Il covo dei ladri**

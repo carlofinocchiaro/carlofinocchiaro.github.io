@@ -14,6 +14,7 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2023 in videogames
+* **Control**
 * **Alan Wake Remastered**
 * **The Outer Worlds**
 * **Ratchet & Clank: Rift Apart**

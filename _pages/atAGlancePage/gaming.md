@@ -14,6 +14,7 @@ Per quanto mi riguarda io l'ira di Super Mario l'ho evitata, mi piacciono i vide
 
 ***
 #### 2024 in videogames
+* **Marvel’s Spider-Man 2**
 
 #### 2023 in videogames
 * **Watch Dogs**

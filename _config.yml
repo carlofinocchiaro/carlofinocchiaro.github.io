@@ -1,0 +1,32 @@
+title: "Carlo Finocchiaro"
+author: "Carlo Finocchiaro"
+description: "A hero can be anyone"
+permalink: /:title/
+lang: "it"
+excerpt_separator: "\n\n\n"
+date_format: "%A %d %B %Y"
+language: it
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+fontawesome_path: "/assets/fontawesome/icons.svg"
+
+# Layout
+
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "aboutMe.md"}
+
+external:                  # for available icons see fontawesome.com/icons
+  - {title: Instagram, icon: instagram, url: "https://www.instagram.com/carlo_finocchiaro/"}
+  - {title: Facebook, icon: facebook, url: "https://www.facebook.com/finocchiaro.carlo/"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/carlo-finocchiaro-926b1594/"}
+  - {title: GitHub, icon: github, url: "https://github.com/carlofinocchiaro/"}

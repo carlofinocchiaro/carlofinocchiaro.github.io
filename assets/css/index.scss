@@ -1,7 +1,11 @@
 ---
 # Front matter comment to ensure Jekyll properly reads the file
 ---
-@import "variables", "font", "basic", "layout", "classes";
+@use "variables";
+@use "font";
+@use "basic";
+@use "layout";
+@use "classes";
 
 @media (min-width: 40em) {
   body > header,
@@ -12,13 +16,13 @@
 }
 
 body > header {
-  background: $dark;
-  color: $light;
+  background: variables.$dark;
+  color: variables.$light;
   border-bottom: 1px solid reduce(14);
 }
 
 body > footer {
-  box-shadow: 0 0 .6em rgba($dark, 0.04) inset;
+  box-shadow: 0 0 .6em rgba(variables.$dark, 0.04) inset;
   border-top: 1px solid reduce(14);
   opacity: .9;
 }

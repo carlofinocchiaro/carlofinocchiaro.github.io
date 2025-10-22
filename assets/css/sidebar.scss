@@ -1,7 +1,8 @@
 ---
 # Front matter comment to ensure Jekyll properly reads the file
 ---
-@import "variables";
+@use "sass:color";
+@use "variables";
 
 html {
   padding: 0;
@@ -25,7 +26,7 @@ aside {
   display: block !important;
   position: fixed;
   overflow: auto;
-  background: darken($dark, 2%);
+  background: color.scale(variables.$dark, $lightness: -2%);
   color: #fff;
   padding: 2.25em;
   width: 12em;
@@ -46,7 +47,7 @@ nav a {
 }
 nav a:hover,
 nav a.selected {
-  background: lighten($dark, 2%);
+  background: color.scale(variables.$dark, $lightness: 2%);
   text-decoration: inherit;
 }
 .icon {

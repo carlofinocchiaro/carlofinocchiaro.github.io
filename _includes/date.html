@@ -1,0 +1,9 @@
+{% assign mesi_it = "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre" | split: "," %}
+{% assign mesi_en = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+
+{% assign month_index = include.date | date: "%-m" | minus: 1 %}
+{% if site.lang == "it" %}
+{{ include.date | date: "%-d" }} {{ mesi_it[month_index] }} {{ include.date | date: "%Y" }}
+{% else %}
+{{ include.date | date: "%B %-d, %Y" }}
+{% endif %}

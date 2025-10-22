@@ -1,26 +1,21 @@
 ---
 # Front matter comment to ensure Jekyll properly reads the file
 ---
-@use "sass:color";
-@use "variables";
-@use "font";
-@use "basic";
-@use "layout";
-@use "classes";
+@import "variables", "font", "basic", "layout", "classes";
 
 html{
-  background: color.scale(variables.$dark, $lightness: 70%);
+  background: lighten($dark, 70%);
   padding: 0 calc(38% - 22em)
 }
 
 body{
-  box-shadow: 0 0 .3em color.scale(variables.$dark, $lightness: 65%);
+  box-shadow: 0 0 .3em lighten($dark, 65%);
 }
-
+  
 
 body > header, body > footer {
-  background: color.scale(variables.$dark, $lightness: 5%);
-  color: variables.$light;
+  background: lighten($dark, 5%);
+  color: $light;
 }
 
 body > header {
@@ -39,20 +34,20 @@ body > footer {
 
 @media (prefers-color-scheme: dark) {
   html {
-    background: color.scale(variables.$dark, $lightness: -4%);
+    background: darken($dark, 4%);
   }
   body > header, body > footer {
-    background: variables.$dark;
+    background: $dark;
   }
   body, body > header, body > footer {
-    box-shadow: 0 0 0 1px color.scale(variables.$dark, $lightness: 8%);
+    box-shadow: 0 0 0 1px lighten($dark, 8%);
   }
 }
 
   @media (prefers-color-scheme: dark) {
     body > header {
-      box-shadow:
-      0px 0px 0px 1px color.scale(variables.$dark, $lightness: 8%)
-      0px 1px 0px 1px variables.$link-color !important;
+      box-shadow: 
+      0px 0px 0px 1px lighten($dark, 8%),
+      0px 1px 0px 1px $link-color !important;     
     }
   }

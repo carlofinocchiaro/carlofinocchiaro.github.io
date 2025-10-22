@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="photo-post">
+
+    {% include meta.html post=page %}
+
+    {% if page.content %}
+    <section class="photo-post-content">
+        {{ content }}
+    </section>
+    {% endif %}
+
+    {% if page.images %}
+    <section class="photo-gallery">
+        {% for img in page.images %}
+        <figure class="photo-item">
+            <img src="{{ img | relative_url }}" alt="photo {{ forloop.index }}" loading="lazy">
+            </a>
+        </figure>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+</article>
+
+<!-- Lightbox overlay -->
+<div id="lightbox">
+    <img src="" alt="">
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = lightbox.querySelector('img');
+
+        document.querySelectorAll('.photo-item img').forEach(img => {
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden'; // blocca scroll
+            });
+        });
+
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = ''; // riattiva scroll
+        });
+    });
+</script>

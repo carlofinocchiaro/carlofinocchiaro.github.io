@@ -1,17 +1,18 @@
 ---
 # Front matter comment to ensure Jekyll properly reads the file
 ---
+
 @import "variables", "font", "basic", "layout", "classes";
 
-html{
+html {
   background: lighten($dark, 70%);
   padding: 0 calc(38% - 22em)
 }
 
-body{
+body {
   box-shadow: 0 0 .3em lighten($dark, 65%);
 }
-  
+
 
 body > header, body > footer {
   background: lighten($dark, 5%);
@@ -44,10 +45,9 @@ body > footer {
   }
 }
 
-  @media (prefers-color-scheme: dark) {
-    body > header {
-      box-shadow: 
-      0px 0px 0px 1px lighten($dark, 8%),
-      0px 1px 0px 1px $link-color !important;     
-    }
+@media (prefers-color-scheme: dark) {
+  body > header {
+    box-shadow: 0px 0px 0px 1px lighten($dark, 8%),
+    0px 2px 0px 0px $link-color !important;
   }
+}

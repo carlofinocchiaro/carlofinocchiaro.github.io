@@ -3,7 +3,7 @@ body {
   flex-direction: column;
 }
 
-article {
+main {
   flex-grow: 1;
 }
 
@@ -14,7 +14,7 @@ body>header, body>footer {
   justify-content: space-between;
 }
 
-body>header, body>article, body>footer {
+body>header, body>main, body>footer {
   padding: 1.5em;
 }
 

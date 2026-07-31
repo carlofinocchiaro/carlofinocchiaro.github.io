@@ -1,6 +1,7 @@
 title: "Carlo Finocchiaro"
 author: "Carlo Finocchiaro"
 description: "A hero can be anyone"
+url: "https://carlofinocchiaro.github.io"
 permalink: /:title/
 lang: "it"
 excerpt_separator: "\n\n\n"
@@ -10,6 +11,13 @@ language: it
 sass:
   sass_dir: _sass
   style: compressed
+
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - script
 
 fontawesome_path: "/assets/fontawesome/icons.svg"
 

@@ -16,8 +16,7 @@ layout: default
     <section class="photo-gallery">
         {% for img in page.images %}
         <figure class="photo-item">
-            <img src="{{ img | relative_url }}" alt="photo {{ forloop.index }}" loading="lazy">
-            </a>
+            <img src="{{ img | relative_url }}" alt="{{ page.title | escape }}, foto {{ forloop.index }}" loading="lazy" tabindex="0" role="button" aria-haspopup="dialog">
         </figure>
         {% endfor %}
     </section>
@@ -25,27 +24,9 @@ layout: default
 
 </article>
 
-<!-- Lightbox overlay -->
-<div id="lightbox">
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Anteprima immagine" aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="Chiudi anteprima">&times;</button>
     <img src="" alt="">
 </div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImg = lightbox.querySelector('img');
-
-        document.querySelectorAll('.photo-item img').forEach(img => {
-            img.addEventListener('click', () => {
-                lightboxImg.src = img.src;
-                lightbox.classList.add('active');
-                document.body.style.overflow = 'hidden'; // blocca scroll
-            });
-        });
-
-        lightbox.addEventListener('click', () => {
-            lightbox.classList.remove('active');
-            document.body.style.overflow = ''; // riattiva scroll
-        });
-    });
-</script>
+<script src="{{ "/assets/js/photo-lightbox.js" | relative_url }}" defer></script>

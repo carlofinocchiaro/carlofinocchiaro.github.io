@@ -2,6 +2,7 @@
 title: "Fotografia"
 layout: post
 categories: generale
+bootstrap: true
 ---
 
 E' uno dei miei hobby anche se definirlo così potrebbe sembrare riduttivo. E' un momento tutto mio, un attimo di relax durante il quale, provando a portare a casa uno scatto decente, rifletti su molte altre cose nascondendoti dietro l'obiettivo.
@@ -29,19 +30,19 @@ Non sarò di certo uno dei fotografi del National Geographic ma credo che la fot
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ "/assets/images/posts/20210201/foto001.jpg" | relative_url }}" class="d-block w-100">
+      <img src="{{ "/assets/images/posts/20210201/foto001.jpg" | relative_url }}" class="d-block w-100" alt="Fotografia 1 di 5">
     </div>
     <div class="carousel-item">
-      <img src="{{ "/assets/images/posts/20210201/foto002.jpg" | relative_url }}" class="d-block w-100">
+      <img src="{{ "/assets/images/posts/20210201/foto002.jpg" | relative_url }}" class="d-block w-100" alt="Fotografia 2 di 5" loading="lazy">
     </div>
     <div class="carousel-item">
-      <img src="{{ "/assets/images/posts/20210201/foto003.jpg" | relative_url }}" class="d-block w-100">
+      <img src="{{ "/assets/images/posts/20210201/foto003.jpg" | relative_url }}" class="d-block w-100" alt="Fotografia 3 di 5" loading="lazy">
     </div>
     <div class="carousel-item">
-      <img src="{{ "/assets/images/posts/20210201/foto004.jpg" | relative_url }}" class="d-block w-100">
+      <img src="{{ "/assets/images/posts/20210201/foto004.jpg" | relative_url }}" class="d-block w-100" alt="Fotografia 4 di 5" loading="lazy">
     </div>
     <div class="carousel-item">
-      <img src="{{ "/assets/images/posts/20210201/foto005.jpg" | relative_url }}" class="d-block w-100">
+      <img src="{{ "/assets/images/posts/20210201/foto005.jpg" | relative_url }}" class="d-block w-100" alt="Fotografia 5 di 5" loading="lazy">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhoto" data-bs-slide="prev">

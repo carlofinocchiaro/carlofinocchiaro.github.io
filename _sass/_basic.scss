@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 body {
   background: $light;
   color: $dark;
@@ -68,15 +70,12 @@ blockquote, figure {
   margin: 1em 0;
 }
 
-img {
-  margin: .5em 0;
-}
-
 li {
   margin: .25em 0;
 }
 
 img {
+  margin: .5em 0;
   border-radius: 2px;
   max-width: 100%;
   height: auto;
@@ -196,5 +195,17 @@ pre {
 
 #lightbox.active img {
   transform: scale(1);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 2rem;
+  cursor: pointer;
 }
 

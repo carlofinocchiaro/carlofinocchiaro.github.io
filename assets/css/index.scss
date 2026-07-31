@@ -1,11 +1,7 @@
 ---
 # Front matter comment to ensure Jekyll properly reads the file
 ---
-@use "variables" as *;
-@use "font";
-@use "basic";
-@use "layout";
-@use "classes";
+@import "variables", "font", "basic", "layout", "classes";
 
 @media (min-width: 40em) {
   body > header,

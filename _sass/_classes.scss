@@ -1,6 +1,3 @@
-@use "sass:color";
-@use "variables" as *;
-
 .skip-link {
   position: absolute;
   top: -4em;
@@ -82,7 +79,7 @@ a:hover .icon {
 
 .highlight {
   pre {
-    background: rgba(color.adjust($dark, $lightness: 6%), 0.9);
+    background: rgba(lighten($dark, 6%), 0.9);
     color: white;
   }
 

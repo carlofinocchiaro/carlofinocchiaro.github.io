@@ -3,10 +3,27 @@
 require "pathname"
 require "uri"
 
-SITE_ROOT = Pathname.new(File.expand_path("../_site", __dir__))
+PROJECT_ROOT = Pathname.new(File.expand_path("..", __dir__))
+SITE_ROOT = PROJECT_ROOT.join("_site")
 CANONICAL_ORIGIN = "https://carlofinocchiaro.github.io"
 
 errors = []
+unsupported_sass = {
+  /@(?:use|forward)\b/ => "Sass module directives",
+  /\bsass:[\w-]+/ => "Sass built-in modules",
+  /\bcolor\.[\w-]+\s*\(/ => "Sass color module functions"
+}
+
+PROJECT_ROOT.glob("{_sass,assets/css}/**/*.scss").each do |file|
+  source = file.read
+  unsupported_sass.each do |pattern, feature|
+    next unless source.match?(pattern)
+
+    relative_path = file.relative_path_from(PROJECT_ROOT)
+    errors << "#{relative_path}: #{feature} are not supported by GitHub Pages v232"
+  end
+end
+
 html_files = SITE_ROOT.glob("**/*.html")
 errors << "No generated HTML files found" if html_files.empty?
 
